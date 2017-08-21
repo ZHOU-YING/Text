@@ -1,0 +1,333 @@
+ 
+body{
+	color:#494848;
+	font-size: 14px;
+	margin: 0;
+	padding:0;
+	width: 1366px;
+}
+.wrapper{
+	background-color:  #f8f7f3;
+}
+img{
+	width: 100%;
+}
+.header{
+    position: relative;
+    width: 100%;
+    height: 20%;
+    background:#f8f7f3; 
+    float: left;
+}
+.title{
+	position:relative;
+	width: 100%;
+	float:left;
+}
+.picture{
+	position: relative;
+	left:12%;
+	padding-top:4%;
+	float: left;
+	width: 17%;
+}
+.nav{
+	position: relative;  
+    left:32.5%;
+    top:0;
+    writing-mode: vertical-lr;
+	list-style: none;
+	float: left ;
+	line-height: 3.5em;
+}
+ a{
+	text-decoration:none;
+	color: #494848;
+}
+.logo{
+	position: relative;
+	float: left;
+	width: 100%;
+	height: 65%;
+}
+.content{
+	position: relative;
+   	float: left;
+    height: 67%;
+    width: 63%;
+    margin-left: 17.8%;
+    margin-right: 19%;
+    margin-top: 2%;
+    background: #f8f7f3;
+}
+.imagemap{
+    position: relative; 
+    float: left;
+    width: 100%;
+    background:#ffffff;
+}
+.img_top{
+	position: relative;
+	float: left;
+	width: 100%;	
+	height: 175px;
+}
+.top-left{
+    position: relative;
+    float: left;
+	width: 42.7%;
+}
+.top-left-text p{
+	position: absolute;
+	left: 1%;
+	width: 99%;
+	bottom:2.5%;
+	z-index: 2;
+	background:rgba(0,0,0,0.5);
+	margin:0; 
+	text-align: right;
+	color: #fff;
+}
+.top-center{
+    position: relative;
+    float: left;
+	padding-top:8%;
+	padding-left: 12%;
+	padding-right: 12%;
+	color: #5b5a5a;
+}
+.top-right{
+    position: relative;
+	width: 26.5%;
+	float: left;
+}
+.top-right-text p{
+	position: absolute;
+	left: 1%;
+	width: 99%;
+	z-index: 2;
+	bottom: 4%;
+	background: rgba(0,0,0,0.5);
+	margin: 0;
+	text-align: center;
+	color: #e5e5e2;
+}
+.img_bottom{
+	position: relative;
+	width: 100%;
+	float: left;
+	height: 520px;	
+}
+.bottom-left{
+	position: relative;
+   	float: left;
+   	width: 30%;
+}
+.bottom-left-top{
+	position: relative;
+	float: left;
+	padding-top: 15.5%;
+   	padding-left: 4%;
+   	padding-bottom: 15.5%;
+}
+.bottom-left-bottom{
+		position: relative;
+		float: left;
+		width: 100%;	
+}
+.bottom-left-bottom p{
+	position: absolute;
+	z-index: 2;
+	bottom: 1%;
+	left: 1%;
+	width: 99%;
+	background: rgba(0,0,0,0.5);
+	margin:0;
+	font-size:12px;
+	color: #fff;
+	text-align: center;
+}
+.bottom-center{
+    position: relative;
+    float: left;
+    width: 43%;
+}
+.bottom-center-top{
+	position: relative;
+	float: left;
+	width: 100%;
+}
+.bottom-center-top-text{
+	position:absolute;
+	bottom: 25%;
+	width: 100%;
+	z-index: 2;
+	font-size: 34px;
+	text-align: center;
+}
+.bottom-center-top-text p{
+	margin:0;
+}
+.bottom-center-text{
+	position: relative;
+	float: left;
+	padding-top: 33%;
+	padding-left: 12%;
+	padding-right: 12%;
+	text-align: left;
+}
+.bottom-center-text p{
+	
+	margin: 0;
+}
+.bottom-right{
+    position: relative;
+    float: left;
+	width: 27%;
+}
+.bottom-right-top{
+	position: relative;
+	float: left;
+	padding-top: 21%;
+	padding-bottom: 21%;
+	padding-left: 10%;
+}
+.bottom-right-bottom{
+	position: relative;
+	float: left;
+	width: 100%;
+}
+.bottom-right-bottom p{
+	position: absolute;
+	z-index: 2;
+	background: rgba(0,0,0,0.5);
+	bottom: 0;
+	text-align: right;
+	color: #fff;
+}
+.storage{
+	position: relative;
+    width: 100%;
+	height: 40.6%;
+	float: left;
+}
+.storage-header{
+	position: relative;
+	width: 100%;
+	height: 20%;
+	float: left;
+}
+.storage_top{
+	position: relative;
+	width: 100%;
+	height: 100%;	
+	float: left;
+}
+.first {
+	position: absolute;
+	border: 1px ;
+	border-style:  dashed;
+	margin-top: 4%;
+	right: 10%;
+}
+.storage_bottom{
+	position: relative;
+	float: left;
+	width: 100%;
+}	
+.storage_bottom_left{
+	position: relative;
+	float: left;
+	width: 60%;
+}
+.text-storage{
+	position: relative;
+	float: left;
+	width: 35%;
+	padding-top: 8%;
+	padding-left: 5%;
+}
+.mianpoints{
+	position: relative;
+	width: 100%;
+	margin-top: 3%;
+	float: left;
+	list-style: none; 
+}
+.mianpoints td{
+	height: 20px; 
+	border-bottom:1px dashed ;
+}
+.mianpoints a{
+	color: #494848;
+    line-height: 3em;	
+}
+.guide{
+	position: relative;
+	float:left;
+	width: 100%;
+}
+.guide_header{
+	position: relative;
+	float:left;
+	width: 100%;
+}
+.text{
+	position: relative;
+	float: left;
+	width: 100%;
+	margin-bottom: 5%;
+}
+.text1{
+	position: relative;
+	float: left; 
+	width: 28%;
+}
+.text2{
+	position: relative;
+	float: left; 
+	padding-left:2.5%;
+	width: 30%;	
+}
+.text3{
+	position: relative;
+	float: left;
+	padding-left:2.5%;
+	width: 37%;	
+}
+.second{
+	position: relative;
+	float: right;
+	border: 1px dashed;
+	right: 10%;
+}
+.footer{
+    position: relative;
+    overflow: hidden;
+    width:100%;
+    background-color: #616161;
+}
+.footer_left{
+	position: relative;
+	float: left;
+	left: 28%;
+}
+.footer_right{
+	position: relative;
+	float: left;
+	width: 25%;
+	padding-top: 3.6%;
+	left: 35%;
+}
+input{
+	position: relative;
+ 	float: left;
+ 	left: 46%;
+	border: solid 2px #ffffff;
+	background-color:#616161;
+}
+ .button{
+ 	position: relative;
+ 	float: left;
+ 	left: 35.5%;
+}

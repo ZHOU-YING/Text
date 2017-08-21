@@ -1,0 +1,218 @@
+body{
+	color: #999999;
+	font-size: 20px;
+}
+.wrapper{
+	position: relative;
+	float: left;
+	width: 100%;
+	height: 100%;
+
+}
+/*登录框*/
+.header{
+	position: relative;
+	float: left;
+	width: 100%;
+	height: 9%;
+}
+.logo{
+	position: relative;
+	float: left;
+	width: 15%;
+	margin-top: 2%;
+	padding-top: 3%;
+	left: 15%;
+	background-color: #bed742;
+}
+.Login-Register{
+	position: relative;
+	width: 20%;
+	float: right;
+	margin-right: 4%;
+}
+.Login-Register a{
+	float: left;
+	color:  #999999;
+	padding-right: 8%;
+	text-decoration: none;
+}
+.Login-Register a:hover{
+	color: #0000ff;
+}
+#menu{
+	display:none;
+	position: absolute;
+	float: left;
+	width: 360px;
+	height: 260px;
+	margin-top: 280px;
+	margin-left: 350px; 
+	z-index: 3;	
+	text-align: center;
+	background: #fff;
+	color: #000;
+}
+#close{
+	float: right;
+	width: 5.5%;
+	text-decoration:none;
+	color: #fff;
+	background-color: #ff0000;
+}
+#menu div{
+	line-height: 1.8em;
+	margin-top: 2.5%;
+	margin-left: 2%;
+	margin-bottom: 1.5%;
+}
+label{
+	margin-right: 9%;
+	width: 2em;
+	cursor: pointer;
+}
+form input{
+	border: 1px solid #000;
+}
+#butn{
+	border-radius: 0.5em;
+	background-color: #bed742;
+	margin-left: 22%;
+	padding-left:19.5% ;
+	padding-right: 19%;
+	padding-top: 1.1%;
+	padding-bottom: 1.1%;
+}
+/*轮播*/
+#cover{
+	display: none;
+	position: absolute;
+	background:rgba(0,0,0,0.5);
+	z-index: 2;
+	width: 300px;
+	height:400px;
+	padding: 45%;
+}
+#Carousel{
+	position: relative;
+	float: left;
+	width: 100%;
+	background-color: #bed742;
+}
+#Carousel a{
+	position: absolute;
+	float: left;
+	width: 5%;
+	top: 60%;
+
+	text-align: center;
+	text-decoration: none;
+	font-size: 40px;
+	font-weight: bold;
+	color: #fff;
+	background:rgba(0,0,0,0.6);
+}
+#prev{
+	left: 10%;
+}
+#next{
+	right: 10%;
+}
+img{
+	width: 100%;
+}
+#Carousel ul{
+	position: absolute;
+	width: 220px;
+	top:80%;
+	left: 50%;
+}
+ul li{
+	list-style: none;
+	float: left;
+	width: 20px;
+	height: 20px;
+	border-radius: 2em;
+	margin-right: 15px;
+	background: #999999 ;
+}
+.active{
+	background:#fff;
+}
+/*搜索，历史纪录*/
+.search{
+	position: relative;
+	float: left;
+	width:78%;
+	margin-top: 5%;
+	margin-bottom:5%; 
+	margin-left: 22%;
+}
+#searchBox{
+	position: relative;
+	float: left;
+	width: 100%;
+}
+#searchBox input{
+	position: relative;
+	float: left;
+	width: 70%;
+	font-size: 22px;
+	border: 1px solid #000;
+}
+#searchBox button{
+	position: relative;
+	float: left;
+	width: 14%;
+	border-radius: 0.35em;
+	background-color: #bed742;
+	font-size: 22px;
+	right:12%;
+}
+.historyBox{
+	position: relative;
+	float: left;
+	width:55%;
+	height: 360px;
+	margin-top:5%;
+	margin-left: 6%;
+	border: 1px solid #000;
+}
+.hot{
+	position: relative;
+	float: left;
+	width:45%;
+    padding: 0;
+	margin-top:8%;
+	margin-bottom: 4%;
+	margin-right: 55%;
+	background-color: #bed742;
+}
+.hot p{
+	margin: 0;
+    text-align: center;
+    color: #000;
+}
+.history{
+	position: relative;
+	float: left;
+	width:95%;
+	margin-left: 3%;
+}
+ #history input{
+	position: relative;
+	float: left;
+	width: 50%;
+	outline: medium;
+	border: none;
+	padding-top: 3%; 
+	font-size: 20px;
+}
+
+.footer{
+	position:relative ;
+	float:left ;
+	text-align: center;
+	width: 75%;
+	margin-left: 15%;
+
